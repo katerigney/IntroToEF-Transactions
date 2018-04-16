@@ -9,7 +9,7 @@ namespace IntroToEF_Transactions
     class Transactions
     {
         public int ID { get; set; }
-        public string Timestamp { get; set; }
+        public DateTime Timestamp { get; set; }
         public string Action { get; set; }
         public int AccountNumber { get; set; }
         public decimal AmountChanged { get; set; }
